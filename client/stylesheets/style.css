@@ -1,0 +1,36 @@
+html.intro {
+    background: url(images/training.jpg) no-repeat center center fixed;
+    background-size: cover;
+}
+
+.side-nav {
+    width: 240px;
+}
+
+main, header {
+    padding-left: 240px;
+}
+
+.logo {
+    content: url(images/Metal2.png);
+    position: absolute;
+    left:50%;
+    top:15%;
+    transform: translate(-50%,-50%);
+}
+.intro-btn {
+    position: absolute;
+    top: 38%;
+    left: 50%;
+    transform:translate(-50%, -50%);
+}
+
+.transparent-btn {
+    background: transparent;
+    border: 1px solid rgba(255,255,255,0.5);
+    border-radius: 1.5em;
+    width: 250px;
+}
+.transparent-btn:hover {
+    background-color: #757575;
+}
